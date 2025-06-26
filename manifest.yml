@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: healthcare-container
-        image: deepikaarjunan/healthcare-image
+        image: deepikaarjunan/healthcare-image:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8082
